@@ -6,12 +6,12 @@ class ObjectCategory
 
     obj_type_map = {
         Car:            {color: '#86af49',  size:[4.5, 1.8, 1.5], attr:["door open", "trunk open"]},
-        Pedestrian:     {color: '#ff0000',  size:[0.4, 0.5, 1.7], attr:["umbrella", "sitting", "squating", "bending over", "luggage"]},
+        moving_people:  {color: '#ff0000',  size:[0.4, 0.5, 1.7], attr:["umbrella", "sitting", "squating", "bending over", "luggage"]},
         Van:            {color: '#00ff00',  size:[4.5, 1.8, 1.5], attr:["door open", "trunk open"]},
         Bus:            {color: '#ffff00',  size:[13, 3, 3.5]},
         Truck:          {color: '#00ffff',  size:[10., 2.8, 3]},
         
-        ScooterRider:   {color: '#ff8800',  size:[1.6, 0.6, 1.6], attr:["umbrella", "1 passenger", "2 passengers", "3 passengers"]},
+        ScooterRider:   {color: '#ff8800c0',  size:[1.6, 0.6, 1.6], attr:["umbrella", "1 passenger", "2 passengers", "3 passengers"]},
         Scooter:        {color: '#aaaa00',  size:[1.6, 0.6, 1.0]},
 
         
@@ -64,7 +64,7 @@ class ObjectCategory
 
         DontCare:       {color: '#00ff88',  size:[4, 4, 3]},
         Misc:           {color: '#008888',  size:[4.5, 1.8, 1.5]},
-        Unknown:        {color: '#008888',  size:[4.5, 1.8, 1.5]},
+        people_static:        {color: '#887400ff',  size:[4.5, 1.8, 1.5]},
         Unknown1:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown2:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown3:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
@@ -77,7 +77,7 @@ class ObjectCategory
         
     }
 
-    popularCategories = ["Car", "Pedestrian", "Van", "Bus", "Truck", "Scooter", "ScooterRider", "Bicycle", "BicycleRider"];
+    popularCategories = ["Car", "moving_people", "Van", "Bus", "Truck", "Scooter", "ScooterRider", "Bicycle", "BicycleRider"];
 
     guess_obj_type_by_dimension(scale){
 

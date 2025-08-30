@@ -49,7 +49,7 @@ intrinsic_matrix  = np.reshape(intrinsic, [3,3])
 #     Car:            {color: '#00ff00',  size:[4.5, 1.8, 1.5]},
 #     Van:            {color: '#00ff00',  size:[4.5, 1.8, 1.5]},
 #     Bus:            {color: '#ffff00',  size:[13, 3, 3.5]},
-#     Pedestrian:     {color: '#ff0000',  size:[0.4, 0.5, 1.7]},
+#     moving_people:     {color: '#ff0000',  size:[0.4, 0.5, 1.7]},
 #     Rider:          {color: '#ff8800',  size:[1.6, 0.6, 1.6]},
 #     Cyclist:        {color: '#ff8800',  size:[1.6, 0.6, 1.6]},
 #     Bicycle:        {color: '#88ff00',  size:[1.6, 0.6, 1.2]},
@@ -69,7 +69,7 @@ obj_color_map = {
     "Car":            (0  ,255,0  ),#'#00ff00',
     "Van":            (0  ,255,0  ),#'#00ff00',
     "Bus":            (0  ,255,255),#'#ffff00', 
-    "Pedestrian":     (0  ,0  ,255),#'#ff0000',
+    "moving_people":  (0  ,0  ,255),#'#ff0000',
     "Rider":          (0  ,136,255),#'#ff8800',
     "Cyclist":        (0  ,136,255),#'#ff8800',
     "Bicycle":        (0  ,255,136),#'#88ff00',
@@ -79,7 +79,7 @@ obj_color_map = {
     "Tram":           (255,255,0  ),#'#00ffff',
     "Animal":         (255,176,0  ),#'#00aaff',
     "Misc":           (136,136,0  ),#'#008888',
-    "Unknown":        (136,136,0  ),#'#008888',
+    "people_static":  (136,136,0  ),#'#008888',
 }
 
 

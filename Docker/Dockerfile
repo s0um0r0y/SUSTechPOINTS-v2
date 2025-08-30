@@ -8,7 +8,7 @@ RUN apt update && apt install -y python3-pip git wget
 
 RUN pip install --upgrade pip
 
-RUN git clone --depth 1 https://github.com/naurril/SUSTechPOINTS.git
+RUN git clone --depth 1 https://github.com/s0um0r0y/SUSTechPOINTS-v2.git
 
 RUN cd SUSTechPOINTS && \
         wget https://github.com/naurril/SUSTechPOINTS/releases/download/0.1/deep_annotation_inference.h5 -P algos/models && \
