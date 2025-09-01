@@ -77,7 +77,7 @@ class ObjectCategory
         
     }
 
-    popularCategories = ["Car", "moving_people", "Van", "Bus", "Truck", "Scooter", "ScooterRider", "Bicycle", "BicycleRider"];
+    popularCategories = ["Car", "moving_people", "Van", "Bus", "Truck", "Scooter", "ScooterRider", "Bicycle", "BicycleRider","moving_mobile_robot"];
 
     guess_obj_type_by_dimension(scale){
 
