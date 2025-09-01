@@ -80,7 +80,7 @@ obj_color_map = {
     "Animal":         (255,176,0  ),#'#00aaff',
     "Misc":           (136,136,0  ),#'#008888',
     "people_static":  (136,136,0  ),#'#008888',
-    "moving_mobile_robot": (0  ,0  ,255),#'#ff0000'
+    "moving_mobile_robot": (0  ,0  ,255),#'#ff0000',
 }
 
 
