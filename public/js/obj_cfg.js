@@ -65,7 +65,7 @@ class ObjectCategory
         DontCare:       {color: '#00ff88',  size:[4, 4, 3]},
         Misc:           {color: '#008888',  size:[4.5, 1.8, 1.5]},
         people_static:        {color: '#887400ff',  size:[4.5, 1.8, 1.5]},
-        Unknown1:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
+        moving_mobile_robot:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown2:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown3:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown4:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
