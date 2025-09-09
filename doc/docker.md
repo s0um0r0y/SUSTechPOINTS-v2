@@ -20,3 +20,4 @@ docker rm STPointsSServer
 # to enter the container use and to move data use 
 docker exec -it STPointsSServer bash .
 ```
+- Note : the webserver will be vsisble on `http://127.0.0.1:8081/`
