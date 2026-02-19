@@ -7,7 +7,6 @@ class ObjectCategory
     obj_type_map = {
         Car:            {color: '#86af49',  size:[4.5, 1.8, 1.5], attr:["door open", "trunk open"]},
         moving_people:  {color: '#ff0000',  size:[0.4, 0.5, 1.7], attr:["umbrella", "sitting", "squating", "bending over", "luggage"]},
-        moving_people:                {color: '#ff0000', size: [0.6, 0.6, 1.7], attr: ["umbrella", "sitting", "squating", "bending over", "luggage"]},
         static_people:                {color: '#00ff00', size: [0.6, 0.6, 1.7], attr: []},
         unknown:                      {color: '#00ff00', size: [1.0, 1.0, 1.0], attr: []},
         static_car:                   {color: '#ffffff', size: [1.9, 4.6, 1.5], attr: []},
@@ -79,7 +78,6 @@ class ObjectCategory
 
         DontCare:       {color: '#00ff88',  size:[4, 4, 3]},
         Misc:           {color: '#008888',  size:[4.5, 1.8, 1.5]},
-        people_static:        {color: '#887400ff',  size:[4.5, 1.8, 1.5]},
         moving_mobile_robot:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown2:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
         Unknown3:       {color: '#008888',  size:[4.5, 1.8, 1.5]},
@@ -92,7 +90,20 @@ class ObjectCategory
         
     }
 
-    popularCategories = ["Car", "moving_people", "Van", "Bus", "Truck", "Scooter", "ScooterRider", "Bicycle", "BicycleRider","moving_mobile_robot"];
+    popularCategories = ["Car", "moving_people", "Van", "Bus", "Truck", "Scooter", "ScooterRider", "Bicycle", "BicycleRider","moving_mobile_robot", "static_people",                
+        "unknown",                      
+        "static_car",                   
+        "moving_car",                   
+        "moving_truck",                 
+        "static_truck",                 
+        "moving_bus",                   
+        "static_bus",                   
+        "moving_cyclist",               
+        "static_cyclist",               
+        "moving_construction_vehicle",  
+        "static_construction_vehicle",  
+        "moving_other_vehicle",         
+        "static_other_vehicle"];
 
     guess_obj_type_by_dimension(scale){
 
